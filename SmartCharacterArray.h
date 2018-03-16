@@ -11,11 +11,11 @@ public:
 	char * get();
 	bool set(const char * startPointer);
 
-	SmartCharacterArray(SmartCharacterArray&) = delete;
-	SmartCharacterArray(SmartCharacterArray&&) = delete;
+	SmartCharacterArray(SmartCharacterArray&);
+	SmartCharacterArray(SmartCharacterArray&&);
 
-	SmartCharacterArray & operator=(SmartCharacterArray&) = delete;
-	SmartCharacterArray && operator=(SmartCharacterArray&&) = delete;
+	SmartCharacterArray & operator=(SmartCharacterArray&);
+	SmartCharacterArray & operator=(SmartCharacterArray&&);
 
 
 	~SmartCharacterArray();

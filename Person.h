@@ -4,6 +4,7 @@ class Person
 {
 public:
 	Person() {};
+	Person(Person&) {};
 	~Person() {};
 	bool setLastName(const  char * lastName);
 	char * getLastName();
